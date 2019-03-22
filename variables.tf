@@ -153,3 +153,8 @@ variable "archived" {
   default     = "false"
   description = "Specifies if the repository should be archived"
 }
+
+variable "req_pr_reviews_require_code_owner_reviews" {
+  default     = "false"
+  description = "Boolean to toggle requiring review from designated code owner"
+}
